@@ -1,22 +1,97 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Tournament</title>
-        <style type="text/css">
-            body, html
-            {
-                margin: 0; padding: 0; height: 100%; overflow: hidden;
-            }
+<head>
+  <Title>Tournaments</Title>
+  <link href='https://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Istok+Web|Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+  <style>
+.title {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #343434;
+}
+.title .text {
+  text-transform: uppercase;
+  font-family: 'Holtwood One SC', serif;
+  font-size: 5.0vw;
+  padding: 1.5vw;
+  margin: 0;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  color: #E37D55;
+}
+.subtitle {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #343434;
+}
+.winner {
+  color: #049c04;
+  display: inline;
+}
+.listing {
+  margin-bottom:10px;
+  line-height: 20px;
+  color: #343434;
+  font-family: 'Abel', sans-serif;
+}
+.block {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  max-width: 90%;
+  width: 700px;
+  margin: 5px auto;
+  padding: 5px;
+  min-height: 50px;
+  display:block;
+  text-decoration: none;
+}
+.name {
+  font-family: 'Abel', sans-serif;
+  color: #343434;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.date {
+  line-height: 100%;
+  margin-top: -50px;
+  float: right;
+  color: #2C7399;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  right: 5px;
+}
+p {
+  margin:0;
+}
+  </style>
+</head>
+<body style="margin:0;background-color: rgba(225, 225, 225, 0.9);">
+  <div class="title">
+  <h1 class="text">tournaments</h1>
+  </div>
+  <h3 class="subtitle">upcoming tournaments</h3>
 
-            #content
-            {
-                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
-            }
-        </style>
-    </head>
-    <body>
-        <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src="https://tournament.touchyourtoes.org" />
-        </div>
-    </body>
-</html>
+    <a href="/dodge" class="block">
+      <div class="name">Jong Yi's Dodgeball Tournament</div>
+      <div class="listing">Winner: not yet played<div class="Winner"></div></div>
+      <span class="date">10:00pm EDT<br/>Jun 2<sup>nd</sup>, 2017</span>
+    </a>
+
+    <a href="/dodge" class="block">
+      <div class="name">Jong Yi's 2v2 Paintball Tournament</div>
+      <div class="listing">Winner: not yet played<div class="Winner"></div></div>
+      <span class="date">3:00pm EDT<br/>Jun 3<sup>rd</sup>, 2017</span>
+    </a>
+
+  <h3 class="subtitle">past tournaments<h3>
+
+
+
+</body>
+
